@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    #content{
+        color: blue;
+        background-color: cyan;
+    }
+    </style>
+</head>
+<body>
+<span id="content">Noi dung van ban</span>
+<br>
+<input type="button" value="Xanh"><input type="button" value="Do" onclick="toRed();">
+<script>
+    function toRed() {
+        document.getElementById("content").style.color="red";
+        document.getElementById("content").style.backgroundColor="yellow";
+
+    }
+</script>
+
+</body>
+</html>
